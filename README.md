@@ -1,2 +1,2 @@
-# Learnincrux-Auto-Download
+# Learnincruxg-Auto-Download
 Program to download the videos form Learningcrux.com
