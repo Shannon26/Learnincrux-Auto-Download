@@ -2,7 +2,7 @@ import requests
 from pathlib import Path
 from bs4 import BeautifulSoup
 
-URL = 'https://www.learningcrux.com/course/learn-c-programming-beginner-to-advance-deep-dive-in-c'
+URL = input("Enter URL: ")
 page = requests.get(URL)
 
 soup = BeautifulSoup(page.content, 'html.parser')
