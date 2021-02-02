@@ -16,8 +16,8 @@ for job_elem in job_elems:
     sectionHead = h2.text
     sectionHead = sectionHead.replace('\n', ' ')
     sectionHead = sectionHead.replace(" ", "")
-    Path("/content/gdrive/Shared drives/Manchester/Learn/"+sectionHead).mkdir(parents=True, exist_ok=True)
-    pathname ="/content/gdrive/Shared drives/Manchester/Learn/"+sectionHead
+    Path("/content/gdrive/Learn/"+sectionHead).mkdir(parents=True, exist_ok=True)
+    pathname ="/content/gdrive/Learn/"+sectionHead
     pathname = pathname+"/"
 
   for a in job_elem.find_all('a', href=True):
